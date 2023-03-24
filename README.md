@@ -1,7 +1,7 @@
 # Table of Content
 
-[Intro](#A)
-[B wala section](#B)
+1. [Intro](#A)
+2. [B wala section](#B)
 
 
 
