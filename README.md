@@ -1,6 +1,7 @@
 # Table of Content
 
 [Intro](#A)
+[B wala section](#B)
 
 
 
