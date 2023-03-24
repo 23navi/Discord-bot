@@ -4,14 +4,14 @@
 
 
 
-#A
+# A
 
 This is the placeholder for the A header
 
 
 
 
-#B
+# B
 
 This is the placeholder for the A header
 
@@ -28,7 +28,7 @@ This is the placeholder for the A header
 
 
 
-#D
+# D
 
 This is the placeholder for the A header
 
@@ -38,7 +38,7 @@ This is the placeholder for the A header
 
 
 
-#E
+# E
 
 This is the placeholder for the A header
 
@@ -48,7 +48,7 @@ This is the placeholder for the A header
 
 
 
-#F
+# F
 
 This is the placeholder for the A header
 
@@ -58,6 +58,6 @@ This is the placeholder for the A header
 
 
 
-#G
+# G
 
 This is the placeholder for the A header
