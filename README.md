@@ -56,5 +56,14 @@ is
 Navi  
 
 
+### Adding image
+
 
 ![MyImage](https://res.cloudinary.com/drfaohzpo/image/upload/v1665864444/portfolio/home_iw6jpo.jpg)
+
+
+### Adding link
+
+[Click to go to the link](hppts://navisureka.in)
+
+
