@@ -1,3 +1,6 @@
+// Goal is to make a discord bot that will listen to users and if
+// some user says hello. The bot will reply as Hello <Username>
+
 const Discord= require("discord.js");
 
 const {token}= require("./config.json");
