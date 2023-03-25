@@ -71,24 +71,24 @@ Navi
 
 
 
-'''java
+```java
  System.out.println("Hello")
-'''
+```
  
  
-'''python
+```python
  print("Hello")
-'''
+```
 
 
-'''cpp
+```cpp
  cout>>"Hello"
-'''
+```
 
 
 
-'''js
+```js
  console.log("Hello")
-'''
+```
 
 
