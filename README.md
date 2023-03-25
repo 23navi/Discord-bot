@@ -20,48 +20,10 @@ This is the placeholder for the A header
 
 
 
-#C
-
-This is the placeholder for the A header
 
 
+Hey this is **Navi** in bold using ** 
 
+Hey this is __Navi__ in bold again using __
 
-
-
-# D
-
-This is the placeholder for the A header
-
-
-
-
-
-
-
-# E
-
-This is the placeholder for the A header
-
-
-
-
-
-
-
-# A
-
-This is the placeholder for the A header
-
-
-
-## Naviiiii
-
-yooo this is naviii
-
-
-
-
-# G
-
-This is the placeholder for the A header
+Hey this is _Navi_ in itallic using _
