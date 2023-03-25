@@ -48,9 +48,13 @@ is
 
 Navi
 
-### Soft line breaks
+### Soft line breaks (Two blank space after each line)
 
 Hey  
 this  
 is  
 Navi  
+
+
+
+![MyImage](https://res.cloudinary.com/drfaohzpo/image/upload/v1665864444/portfolio/home_iw6jpo.jpg)
