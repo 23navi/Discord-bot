@@ -20,6 +20,31 @@ const Client = new Discord.Client({
 Client.on("ready", (client) => {
     console.log("Bot online " + client.user.tag);
 });
-console.log("hello");
+Client.on("messageCreate", (message) => {
+    if (!message.author.bot) {
+        const userMessage = message.content.toLowerCase();
+        console.log(message.content);
+        message.guild.members.fetch().then((res) => {
+            console.log("List of all the users in the server.");
+            res.forEach((element) => {
+                console.log(element.user.username + " #" + element.user.discriminator);
+            });
+        }).catch((e) => {
+            console.log(e);
+        });
+        message.reply(replyMessage(userMessage, message));
+    }
+    else {
+        return;
+    }
+});
+function replyMessage(userMessage, message) {
+    if (userMessage == "!help" || userMessage == "!commands") {
+        return `This server provides many features like !help, !commands, !maths`;
+    }
+    else {
+        return `Heyy ${message.author.username}! Welcome to ${message.channel.guild.name}`;
+    }
+}
 // console.log(token);
 Client.login(token);
