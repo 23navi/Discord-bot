@@ -25,6 +25,8 @@ Client.on("ready", (client: any) => {
 });
 
 
+const greetings:string[]=["hello","hey","heyy","yoo","hellooo"];
+
 
 
 Client.on("messageCreate",(message:any)=>{
@@ -32,36 +34,34 @@ Client.on("messageCreate",(message:any)=>{
 
     if(!message.author.bot){
         const userMessage= message.content.toLowerCase();
+        console.log(userMessage);
+        if( greetings.includes(userMessage)){
+            console.log("This is hit");
+            message.reply(replyMessage(message));
+        }
 
-        console.log(message.content);
+        // console.log(message.content);
 
-        message.guild.members.fetch().then((res:any)=>{
-            console.log("List of all the users in the server.");
+        // message.guild.members.fetch().then((res:any)=>{
+        //     console.log("List of all the users in the server.");
 
-            res.forEach((element:any) => {
-                console.log(element.user.username + " #" +element.user.discriminator);
-            });
-        }).catch((e:any)=>{
-            console.log(e);
-        });
+        //     res.forEach((element:any) => {
+        //         console.log(element.user.username + " #" +element.user.discriminator);
+        //     });
+        // }).catch((e:any)=>{
+        //     console.log(e);
+        // });
 
-        message.reply(replyMessage(userMessage,message));
+        
     }else{
         return;
     }
 })
 
 
-function replyMessage(userMessage:any,message:any){
-    if(userMessage=="!help" || userMessage=="!commands"){
-        return `This server provides many features like !help, !commands, !maths`;
-    }else{
+function replyMessage(message:any){
         return `Heyy ${message.author.username}! Welcome to ${message.channel.guild.name}`;
-    }
 }
-
-
-
 
 
 

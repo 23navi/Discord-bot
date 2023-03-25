@@ -20,31 +20,31 @@ const Client = new Discord.Client({
 Client.on("ready", (client) => {
     console.log("Bot online " + client.user.tag);
 });
+const greetings = ["hello", "hey", "heyy", "yoo", "hellooo"];
 Client.on("messageCreate", (message) => {
     if (!message.author.bot) {
         const userMessage = message.content.toLowerCase();
-        console.log(message.content);
-        message.guild.members.fetch().then((res) => {
-            console.log("List of all the users in the server.");
-            res.forEach((element) => {
-                console.log(element.user.username + " #" + element.user.discriminator);
-            });
-        }).catch((e) => {
-            console.log(e);
-        });
-        message.reply(replyMessage(userMessage, message));
+        console.log(userMessage);
+        if (greetings.includes(userMessage)) {
+            console.log("This is hit");
+            message.reply(replyMessage(message));
+        }
+        // console.log(message.content);
+        // message.guild.members.fetch().then((res:any)=>{
+        //     console.log("List of all the users in the server.");
+        //     res.forEach((element:any) => {
+        //         console.log(element.user.username + " #" +element.user.discriminator);
+        //     });
+        // }).catch((e:any)=>{
+        //     console.log(e);
+        // });
     }
     else {
         return;
     }
 });
-function replyMessage(userMessage, message) {
-    if (userMessage == "!help" || userMessage == "!commands") {
-        return `This server provides many features like !help, !commands, !maths`;
-    }
-    else {
-        return `Heyy ${message.author.username}! Welcome to ${message.channel.guild.name}`;
-    }
+function replyMessage(message) {
+    return `Heyy ${message.author.username}! Welcome to ${message.channel.guild.name}`;
 }
 // console.log(token);
 Client.login(token);
