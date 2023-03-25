@@ -82,7 +82,7 @@ Navi
 
 
 ```cpp
- cout>>"Hello"
+ cout << "Hello"
 ```
 
 
@@ -90,5 +90,11 @@ Navi
 ```js
  console.log("Hello")
 ```
+
+```ts
+ console.log("Hello")
+ ```
+ 
+ 
 
 
