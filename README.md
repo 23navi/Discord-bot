@@ -70,3 +70,25 @@ Navi
 [Link text Here](https://link-url-here.org)
 
 
+
+'''java
+ System.out.println("Hello")
+'''
+ 
+ 
+'''python
+ print("Hello")
+'''
+
+
+'''cpp
+ cout>>"Hello"
+'''
+
+
+
+'''js
+ console.log("Hello")
+'''
+
+
