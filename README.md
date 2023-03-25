@@ -96,5 +96,10 @@ Navi
  ```
  
  
+ ```sh
+  echo "Hello"
+  ```
+ 
+ 
 
 
