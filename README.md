@@ -64,6 +64,6 @@ Navi
 
 ### Adding link
 
-[Click to go to the link](hppts://navisureka.in)
+[Click](hppts://navisureka.in)
 
 
