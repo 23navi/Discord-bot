@@ -29,4 +29,10 @@ Hey this is __Navi__ in bold again using __
 Hey this is _Navi_ in itallic using _
 
 
-Hey this is <b>Navi</b> in bold using "<b></b>
+Hey this is <b>Navi</b> in bold using "<b></b>"
+
+
+hey
+this
+is
+Navi
