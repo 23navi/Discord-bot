@@ -65,7 +65,7 @@ Navi
 ### Adding link
 
 
-[ClickMe](hppts://navisureka.in)
+[ClickMe](https://navisureka.in)
 
 [Link text Here](https://link-url-here.org)
 
