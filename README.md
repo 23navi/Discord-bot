@@ -1,3 +1,6 @@
+# Ignore this README because I was trying to learn md syntex in this file. :)))
+
+
 # Table of Content
 
 1. [Intro](#A)
