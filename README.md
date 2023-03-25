@@ -70,6 +70,7 @@ Navi
 [Link text Here](https://link-url-here.org)
 
 
+### Code Snippts in different languages
 
 ```java
  System.out.println("Hello")
@@ -100,6 +101,14 @@ Navi
   echo "Hello"
   ```
  
+ 
+ ### Check lists
+ 
+ - [X] First
+ - [X] Second
+ - [X] Third
+ - [ ] Forth
+ - [x] Fifth
  
 
 
